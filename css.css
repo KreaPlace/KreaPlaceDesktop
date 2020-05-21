@@ -5,6 +5,10 @@ body {
     flex-direction: column;
     height: auto;
     margin: 0px;
+    width: 375px;
+    position: absolute;
+    left: 50%;
+    margin-left: -187.5px;
 }
 
 header {
@@ -12,7 +16,18 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 15px;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 100px;
+}
+
+#greeting {
+    margin: 10px;
+    font-family: century-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 footer {
@@ -23,21 +38,93 @@ footer {
     background-color: #67a3d9;
     width: 100%;
 }
-.icon{
+
+.icon {
     width: 30px;
     margin: 10px;
 }
-.person{
+
+.person {
     display: flex;
     flex-direction: row;
     text-align: center;
+    font-family: century-gothic, sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
-.person_photo{
+
+.person_photo {
     width: 50px;
     height: 50px;
     margin: 10px 50px 10px 10px
 }
-.photo{
+
+.photo {
     width: 300px;
     margin: 0px 0px 10px 0px;
+}
+
+/* Discover1 page */
+
+.header_dis_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 0px;
+    height: 60px;
+    background-color: #67a3d9;
+    width: 100%;
+}
+.search_box{
+    height: 40px;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.search_icon{
+    width: 30px;
+    margin-left: 20px;
+}
+main{
+
+}
+.category{
+display: flex;
+flex-direction: row;
+margin: 20px;
+}
+.category_photo{
+    width: 150px;
+    margin-right: 20px;
+}
+.category_h1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: century-gothic, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0px;
+}
+.category_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    font-family: century-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.search_type{
+    margin: 11px 10px;
+color: #999;
+        font-family: century-gothic, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 10pt;
 }
