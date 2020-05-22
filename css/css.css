@@ -142,14 +142,15 @@ main {}
 
 /*SignUp/SignIn page styling begins here*/
 .ballofyarn {
-    width: 250px;
+    width: 230px;
     top: 65%;
     left: 40%;
+    margin-left: 80px;
 }
 
 .signintext {
     color: white;
-    font-size: 22pt;
+    font-size: 24pt;
     background: none;
     text-decoration: none;
     position: absolute;
@@ -159,7 +160,19 @@ main {}
     flex-wrap: wrap;
 }
 
-/* .signin {
+.signuptext {
+    color: white;
+    font-size: 24pt;
+    background: none;
+    text-decoration: none;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-wrap: wrap;
+}
+
+.signin {
     position: relative;
     display: block;
     align-content: center;
@@ -168,4 +181,15 @@ main {}
     margin-top: 70px;
     flex-wrap: wrap;
     max-width: 100%;
-} */
+}
+
+.signup {
+    position: relative;
+    display: block;
+    align-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
