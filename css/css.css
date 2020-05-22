@@ -9,6 +9,7 @@ body {
     position: absolute;
     left: 50%;
     margin-left: -187.5px;
+    font-family: century-gothic, sans-serif;
 }
 
 header {
@@ -38,7 +39,7 @@ footer {
     background-color: #67a3d9;
     width: 100%;
     border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+        border-top-left-radius: 10px;
 }
 
 .icon {
@@ -50,9 +51,7 @@ footer {
     display: flex;
     flex-direction: row;
     text-align: center;
-    font-family: century-gothic, sans-serif;
     font-weight: 600;
-    font-style: normal;
 }
 
 .person_photo {
@@ -77,8 +76,8 @@ footer {
     height: 60px;
     background-color: #67a3d9;
     width: 100%;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
 }
 
 .search_box {
@@ -93,7 +92,13 @@ footer {
     margin-left: 20px;
 }
 
-main {}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
 
 .category {
     display: flex;
@@ -110,9 +115,7 @@ main {}
     display: flex;
     text-align: center;
     align-items: center;
-    font-family: century-gothic, sans-serif;
     font-weight: 600;
-    font-style: normal;
     margin: 0px;
 }
 
@@ -123,17 +126,13 @@ main {}
     text-align: center;
     justify-content: center;
     width: 100%;
-    font-family: century-gothic, sans-serif;
     font-weight: 400;
-    font-style: normal;
 }
 
 .search_type {
     margin: 11px 10px;
     color: #999;
-    font-family: century-gothic, sans-serif;
     font-weight: 100;
-    font-style: normal;
     font-size: 10pt;
     border: none;
     width: 238px;
@@ -192,4 +191,50 @@ main {}
     margin-top: 10px;
     flex-wrap: wrap;
     max-width: 100%;
+}
+
+/* Camera */
+
+.header_cam{
+    
+}
+
+.publish{
+    background-color: #F6D2E0;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.publish_text{
+    margin: 6px 30px;
+}
+.name {
+    margin: 0px 0px 10px 0px;
+    padding: 1px 2px;
+    color: #999;
+    font-weight: 400;
+    font-size: 10pt;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #E5E5E5;
+}
+.no_margin{
+    margin: 10px 0px 4px 0px;
+}
+.description{
+    margin: 0px 0px 10px 0px;
+    color: #999;
+    font-weight: 400;
+    font-size: 10pt;
+    width: 300px;
+    height: 80px;
+    border: none;
+    border-radius: 20px;
+    background-color: #E5E5E5;
+}
+#video{
+    width: 375px;
+    height: 375px;
 }
