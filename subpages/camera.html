@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../css/css.css">
     <meta name="keywords" content="Knitting, Crocheting">
     <meta name="description" content="Application for crocheting and knitting lovers">
-    <script type="javascript" src="js.js"></script>
     <link rel="stylesheet" href="https://use.typekit.net/oso3asu.css">
 </head>
 <body>
@@ -41,8 +40,9 @@
     <option value="totorial">tutorial</option>
   </select>
         </div>
+    
         <video id="video" autoplay></video>
-<button id="photo">Photo</button>
+    
     <script>
         // Grab elements, create settings, etc.
 var video = document.getElementById('video');
@@ -55,8 +55,22 @@ if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
         video.srcObject = stream;
         video.play();
     });
+    // Elements for taking the snapshot
+var canvas = document.getElementById('video');
+var context = canvas.getContext('2d');
+var video = document.getElementById('video');
+
+// Trigger photo take
+document.getElementById("photo").addEventListener("click", function() {
+	context.drawImage(video, 0, 0, 375, 375);
+});
 }
     </script>
+    
+    <div class="buttons">
+<button id="photo"></button>
+    <button id="flash"></button>
+    </div>
     
     </main>
         <footer>

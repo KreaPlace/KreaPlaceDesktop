@@ -39,7 +39,7 @@ footer {
     background-color: #67a3d9;
     width: 100%;
     border-top-right-radius: 10px;
-        border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .icon {
@@ -76,8 +76,8 @@ footer {
     height: 60px;
     background-color: #67a3d9;
     width: 100%;
-        border-bottom-right-radius: 10px;
-        border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .search_box {
@@ -92,7 +92,7 @@ footer {
     margin-left: 20px;
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -195,19 +195,18 @@ main{
 
 /* Camera */
 
-.header_cam{
-    
-}
+.header_cam {}
 
-.publish{
+.publish {
     background-color: #F6D2E0;
     border-radius: 20px;
     height: 30px;
 }
 
-.publish_text{
+.publish_text {
     margin: 6px 30px;
 }
+
 .name {
     margin: 0px 0px 10px 0px;
     padding: 1px 2px;
@@ -220,10 +219,12 @@ main{
     border-radius: 20px;
     background-color: #E5E5E5;
 }
-.no_margin{
+
+.no_margin {
     margin: 10px 0px 4px 0px;
 }
-.description{
+
+.description {
     margin: 0px 0px 10px 0px;
     color: #999;
     font-weight: 400;
@@ -234,7 +235,35 @@ main{
     border-radius: 20px;
     background-color: #E5E5E5;
 }
-#video{
+
+#video {
     width: 375px;
     height: 375px;
+}
+
+#photo {
+    background-image: url(../photos/snap-photo.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: none;
+}
+
+#flash {
+    background-image: url(../photos/flash.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: none;
+}
+
+.buttons {
 }
