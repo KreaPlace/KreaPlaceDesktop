@@ -297,6 +297,7 @@ margin-right: 95px;
     height: 30px;
     margin: 0px 10px;
     width: 90px;
+    display: flex;
 }
 
 .category_button_white{
@@ -305,11 +306,13 @@ margin-right: 95px;
     height: 30px;
     margin: 0px 10px;
     width: 90px;
+    display: flex;
 }
 
 .category_text {
     margin: 6px 0px;
     font-size: 11pt;
+    text-decoration: none;
 }
 
 /* Gallery */
