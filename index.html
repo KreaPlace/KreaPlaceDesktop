@@ -11,37 +11,53 @@
     <script type="javascript" src="js.js"></script>
 </head>
 
-<header>
+    <header>
     <img class="logo" src="photos/logo.png">
     <h1 id="greeting"> </h1>
-    <script>
+        <script>
         var currentTime = new Date();
-        var h = currentTime.getHours();
-        hourarray = ["Good night!", "Good night!", "Good night!", "Good night!", "Good night!", "Good morning!", "Good morning!", "Good morning!", "Good morning!", "Good morning!", "Good morning!", "Good morning!", "Good afternoon!", "Good afternoon!", "Good afternoon!", "Good afternoon!", "Good afternoon!", "Good afternoon!", "Good evening!", "Good evening!", "Good evening!", "Good evening!", "Good evening!", "Good evening!", ]
-        var greeting = document.getElementById("greeting").innerHTML = hourarray[h];
-    </script>
-</header>
+var h = currentTime.getHours();
+hourarray = ["Good night!", "Good night!", "Good night!", "Good night!", "Good night!", "Good morning!", "Good morning!", "Good morning!", "Good morning!", "Good morning!", "Good morning!", "Good morning!", "Good afternoon!", "Good afternoon!", "Good afternoon!", "Good afternoon!", "Good afternoon!", "Good afternoon!", "Good evening!","Good evening!","Good evening!", "Good evening!", "Good evening!", "Good evening!",]
+var greeting = document.getElementById("greeting").innerHTML = hourarray[h];
+        </script>
+    </header>
 
-<body>
-    <div class="post">
+    <body>
+<div class="post">
         <div class="person">
-            <img class="person_photo" src="photos/profile-2.png">
-            <h3>Stinne</h3>
-        </div>
-        <img class="photo" src="./photos/toys.jpg">
+    <img class="person_photo" src="photos/profile-2.png"><h3>Stinne</h3>
     </div>
-    <div class="post">
+    <img class="photo" src="./photos/toys.jpg">
+    <div class="stats"><div class="stat">
+        <h3 class="no_margin">
+    21 <img class="heart" src="../photos/heart.png">
+    </h3></div>
+        <div class="stat">
+        <h3 class="no_margin">
+    6 <img class="heart" src="../photos/comment.png">
+    </h3></div>
+    </div></div>
+        <div class="post">
         <div class="person">
-            <img class="person_photo" src="photos/Annotation%202020-05-18%20170818.jpg">
-            <h3>Amy</h3>
-        </div>
-        <img class="photo" src="./photos/mask-crochet.jpg">
+    <img class="person_photo" src="photos/Amy.jpg"><h3>Amy</h3>
     </div>
-</body>
-<footer class="footer">
-    <a href="index.html"><img class="icon" src="./photos/home.png"></a>
-    <a href="./subpages/Discover1.html"><img class="icon" src="./photos/plus%20icon.png"></a>
-    <a href="./subpages/camera.html"><img class="icon" src="./photos/plus.png"></a>
-    <a href="notifications.html"><img class="icon" src="./photos/bell.png"></a>
-    <a href="./subpages/profile.html"><img class="icon" src="./photos/user.png"></a>
-</footer></html>
+    <a href="subpages/post.html"><img class="photo" src="./photos/hat-2.png"></a>
+            <div class="stats"><div class="stat">
+        <h3 class="no_margin">
+    15 <img class="heart" src="../photos/heart.png">
+    </h3></div>
+        <div class="stat">
+        <h3 class="no_margin">
+    8 <img class="heart" src="../photos/comment.png">
+    </h3></div>
+        </div>
+    </div>
+    </body>
+        <footer class="footer">
+           <a href="index.html"><img class="icon" src="./photos/home.png"></a>
+           <a href="./subpages/Discover1.html"><img class="icon" src="./photos/plus%20icon.png"></a>
+            <a href="./subpages/camera.html"><img class="icon" src="./photos/plus.png"></a>
+            <a href="index.html"><img class="icon" src="./photos/bell.png"></a>
+            <a href="./subpages/profile.html"><img class="icon" src="./photos/user.png"></a>
+        </footer>
+</html>
