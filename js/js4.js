@@ -1,11 +1,11 @@
-    // Grab elements, create settings, etc.
 var video = document.getElementById('video');
+var videoConstraints = {
+    facingMode: 'environment'
+  };
 
-// Get access to the camera!
 if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-    // Not adding `{ audio: true }` since we only want video now
-    navigator.mediaDevices.getUserMedia({ video: true }).then(function(stream) {
-        //video.src = window.URL.createObjectURL(stream);
+    navigator.mediaDevices.getUserMedia({ video: videoConstraints }).then(function(stream) {
+    
         video.srcObject = stream;
         video.play();
     });
@@ -14,7 +14,6 @@ var canvas = document.getElementById('canvas');
 var context = canvas.getContext('2d');
 var video = document.getElementById('video');
 
-// Trigger photo take
 document.getElementById("photo").addEventListener("click", function() {
 	context.drawImage(video, 0, 0, 375, 375);
 });
