@@ -65,8 +65,8 @@ footer {
     margin: 0px;
 }
 
-.post{
-   margin-bottom: 10px; 
+.post {
+    margin-bottom: 10px;
 }
 
 /* Discover1 page */
@@ -120,7 +120,7 @@ main {
     text-align: center;
     align-items: center;
     font-weight: 600;
-    margin: 0px;   
+    margin: 0px;
     text-decoration: none;
 }
 
@@ -209,12 +209,17 @@ main {
     max-width: 100%;
 }
 
+/*NOTIFICATIONS PAGE STARTS HERE*/
+.notif {
+    font-size: 18pt;
+}
+
 /* Camera */
 
-input{
-      font-family: century-gothic, sans-serif;
+input {
+    font-family: century-gothic, sans-serif;
     font-weight: 400;
-    font-style: normal;  
+    font-style: normal;
 }
 
 .header_cam {}
@@ -248,10 +253,12 @@ input{
 .no_margin {
     margin: 0px;
 }
+
 .h5_margin {
     margin: 10px 0px 4px 0px;
 }
-.h5_margin_bot{
+
+.h5_margin_bot {
     margin: 0px 0px 4px 0px;
 }
 
@@ -266,7 +273,8 @@ input{
     border-radius: 20px;
     background-color: #E5E5E5;
 }
-#type{
+
+#type {
     margin-bottom: 20px;
 }
 
@@ -300,7 +308,7 @@ input{
 }
 
 .buttons {
-margin-right: 95px;
+    margin-right: 95px;
 }
 
 .category_button {
@@ -312,7 +320,7 @@ margin-right: 95px;
     display: flex;
 }
 
-.category_button_white{
+.category_button_white {
     background-color: #fff;
     border-radius: 20px;
     height: 30px;
@@ -329,24 +337,25 @@ margin-right: 95px;
 
 /* Gallery */
 
-.photo_grid{
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   grid-gap: 2px;
+.photo_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2px;
 }
-.grid_photo{
+
+.grid_photo {
     width: 125px;
     height: 100px;
 }
 
 /* Discover2 */
 
-.left{
+.left {
     margin: 5px 100px 0px 0px;
 }
 
-.sort{
-        margin: 0px 0px 10px 250px;
+.sort {
+    margin: 0px 0px 10px 250px;
     padding: 1px 2px;
     color: #000;
     font-weight: 400;
@@ -360,21 +369,21 @@ margin-right: 95px;
 
 /* Profile */
 
-.heart{
+.heart {
     margin: 0px 0px 5px 0px;
     width: 20px;
     height: 20px;
     vertical-align: middle;
 }
 
-.stats{
+.stats {
     display: flex;
     flex-direction: row;
 }
 
-.stat{
+.stat {
     margin: 0px 10px;
-  align-self: flex-end;
+    align-self: flex-end;
 }
 
 .edit_profile {
@@ -383,9 +392,9 @@ margin-right: 95px;
     height: 30px;
 }
 
-.padding{
+.padding {
     padding: 10px;
-        margin: 0px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
     color: #000;
     font-weight: 400;
     font-size: 10pt;
@@ -396,12 +405,12 @@ margin-right: 95px;
     background-color: #E5E5E5;
 }
 
-.profile_photo{
+.profile_photo {
     width: 200px;
     margin: 10px;
 }
 
-.signe{
+.signe {
     margin: 0px;
 }
 
@@ -431,25 +440,25 @@ margin-right: 95px;
     background-color: #F6D2E0;
 }
 
-.date{
+.date {
     margin: 0px 0px 3px 90px;
 }
 
-.comments{
+.comments {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.comment{
+.comment {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.comment_box{
+.comment_box {
     padding: 10px;
     margin: 0px 15px 0px 0px;
     color: #000;
@@ -481,6 +490,6 @@ margin-right: 95px;
     display: flex;
 }
 
-.small_margin{
+.small_margin {
     margin: 5px 0px 0px 0px;
 }
