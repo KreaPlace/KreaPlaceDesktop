@@ -36,3 +36,4 @@ function gotDevices(mediaDevices) {
     }
   });
 }
+navigator.mediaDevices.enumerateDevices().then(gotDevices);
