@@ -1,4 +1,4 @@
-            var images = ["../photos/heart.png", "../photos/heart_red.png"]
+            var images = ["../photos/heart_red.png", "../photos/heart.png"];
 
             var imgState = 0;
 
