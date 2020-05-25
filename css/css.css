@@ -102,6 +102,7 @@ main {
     align-items: center;
     flex-direction: column;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 .category {
@@ -212,6 +213,47 @@ main {
 /*NOTIFICATIONS PAGE STARTS HERE*/
 .notif {
     font-size: 18pt;
+}
+
+/* Here we use a CSS Grid layout in order to */
+/* align the elements on the screen*/
+.griditempic {
+    width: 65px;
+    height: 65px;
+    float: left;
+}
+
+.griditempic4 {
+    width: 65px;
+    height: 65px;
+    float: left;
+    border-radius: 35px;
+}
+
+.grid-container {
+    margin-top: 15px;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+}
+
+.griditemtext {
+    background-color: #E5E5E5;
+    width: 210px;
+    height: 65px;
+    border-radius: 20px;
+}
+
+.gridtext {
+    padding-left: 15px;
+    padding-top: 0px;
+}
+
+.griditempost {
+    height: 65px;
+    width: 70px;
+    padding-bottom: 30px;
 }
 
 /* Camera */
@@ -330,9 +372,9 @@ input {
 }
 
 .category_text {
+    color: black;
     margin: 6px 0px;
     font-size: 11pt;
-    text-decoration: none;
 }
 
 /* Gallery */
