@@ -3,7 +3,7 @@ var h = currentTime.getHours();
 hourarray = ["Good night!", "Good night!", "Good night!", "Good night!", "Good night!", "Good morning!", "Good morning!", "Good morning!", "Good morning!", "Good morning!", "Good morning!", "Good morning!", "Good afternoon!", "Good afternoon!", "Good afternoon!", "Good afternoon!", "Good afternoon!", "Good afternoon!", "Good evening!","Good evening!","Good evening!", "Good evening!", "Good evening!", "Good evening!",]
 var greeting = document.getElementById("greeting").innerHTML = hourarray[h];
 
-var images = ["../photos/heart_red.png", "../photos/heart.png"];
+var images = ["./photos/heart.png", "./photos/heart_red.png"];
 
 var imgState = 0;
 
