@@ -14,23 +14,11 @@ imgTag.addEventListener("click", function (event) {
   event.target.src = images[imgState];
 });
 
+var imgState2 = 0;
+
 var imgTag2 = document.getElementById("heart2");
 
 imgTag2.addEventListener("click", function (event) {
-  imgState = (++imgState % images.length);
-  event.target.src = images[imgState];
-});
-
-var imgTag3 = document.getElementById("heart3");
-
-imgTag3.addEventListener("click", function (event) {
-  imgState = (++imgState % images.length);
-  event.target.src = images[imgState];
-});
-
-var imgTag4 = document.getElementById("heart4");
-
-imgTag4.addEventListener("click", function (event) {
-  imgState = (++imgState % images.length);
-  event.target.src = images[imgState];
+  imgState2 = (++imgState2 % images.length);
+  event.target.src = images[imgState2];
 });
