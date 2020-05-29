@@ -22,6 +22,7 @@ header {
 
 .logo {
     width: 100px;
+    cursor: pointer;
 }
 
 #greeting {
