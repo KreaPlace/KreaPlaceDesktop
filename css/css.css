@@ -55,7 +55,7 @@ footer {
     flex-direction: row;
     text-align: center;
     font-weight: 600;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 .person_photo {
@@ -713,7 +713,11 @@ footer {
     flex-direction: row;
     text-align: center;
     font-weight: 600;
+    margin-top: 80px;
 }
+    .person_margin{
+        margin-top: 20px;
+    }
 
     .person_photo {
     width: 100px;
@@ -983,8 +987,8 @@ a {
 
 
 #video {
-    width: 375px;
-    height: 300px;
+    width: 510px;
+    height: 400px;
 }
 
 #photo {
@@ -1053,11 +1057,10 @@ a {
 }
 
 #canvas{
-    width: 375px;
-    width: 375px;
-    height: 300px;
+    width: 510px;
+    height: 400px;
     position: absolute;
-    top: 509px;
+    top: 510px;
 }
 
 .text-decoration{
@@ -1443,4 +1446,56 @@ margin-left: 40px;
     .popular{
         margin-left: 40px;
     }
+}
+@media only screen and (min-width: 900px){
+.post_description {
+    margin: 20px 0px 10px 0px;
+    padding: 20px;
+    color: #000;
+    font-weight: 400;
+    font-size: 10pt;
+    width: 500px;
+    height: 130px;
+    border: none;
+    border-radius: 20px;
+    background-color: #F6D2E0;
+}
+.date {
+    margin: 0px 0px 3px 490px;
+}
+.comment_box {
+    padding: 20px;
+    margin: 0px 120px 0px 0px;
+    color: #000;
+    font-weight: 400;
+    font-size: 16pt;
+    width: 320px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #E5E5E5;
+}
+.heart {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.person_photo {
+    width: 110px;
+    height: 110px;
+    margin: 10px 120px 10px -50px;
+}
+    .person_photo_front {
+    width: 110px;
+    height: 110px;
+    margin: 10px 30px 10px 10px;
+}
+.comment_button {
+    background-color: #F6D2E0;
+    border-radius: 60px;
+    height: 80px;
+    margin: 0px 10px;
+    width: 259px;
+    display: flex;
+}
 }
