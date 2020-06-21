@@ -45,7 +45,7 @@
             </div>
         </div>
         <div class="comments">
-            <h2>Comments</h2>
+            <h2 id="mask_comments">Comments</h2>
             <div class="comment">
                 <a href="profile2.html"><img class="person_photo" src="../photos/Amy.jpg"></a>
                 <p class="comment_box" type="text">Thats what i needed,<br> Thank you!</p>
@@ -56,15 +56,28 @@
                 <p class="comment_box" type="text">Excellent idea, Stinne!</p>
                 <img class="heart" id="heart7" src="../photos/heart.png">
             </div>
+                        <div class="comment" id="comment">
+                <a href="profile.html"><img class="person_photo" src="../photos/Signe.png"></a>
+                            <input class="comment_box" placeholder="Type here...">
+                <img class="heart" id="heart7" src="../photos/accept.png">
+            </div>
+            
+            <div id="more">
+                <div class="comment">
+                <a href="profile.html"><img class="person_photo" src="../photos/user3.jpg"></a>
+                <p class="comment_box" type="text">It's not obligatory to wear masks anymore :)</p>
+                <img class="heart" id="heart7" src="../photos/heart.png">
+            </div>
+            </div>
         </div>
         <div class="category category_center">
                 <div class="comment_button">
-                    <p class="comment_text">
+                    <p class="comment_text" onclick="more()">
                         View all comments...
                     </p>
                 </div>
                 <div class="comment_button">
-                    <p class="comment_text">
+                    <p class="comment_text" onclick="comment()">
                         Leave a comment..
                     </p>
                 </div>

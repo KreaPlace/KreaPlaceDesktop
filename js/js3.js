@@ -33,3 +33,21 @@
                 el.style.backgroundColor = follow ? "#67a3d9" : "";
                 follow = !follow;
             }
+
+function comment() {
+  var sth = document.getElementById("comment");
+  if (sth.style.display === "flex") {
+    sth.style.display = "none";
+  } else {
+    sth.style.display = "flex";
+  }
+}
+
+function more() {
+  var more = document.getElementById("more");
+  if (more.style.display === "flex") {
+    more.style.display = "none";
+  } else {
+    more.style.display = "flex";
+  }
+}

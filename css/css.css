@@ -61,7 +61,8 @@ footer {
 .person_photo {
     width: 50px;
     height: 50px;
-    margin: 10px 30px 10px 10px
+    margin: 10px 30px 10px 10px;
+    border-radius: 100%;
 }
 
 .photo {
@@ -271,7 +272,9 @@ a {
     font-style: normal;
 }
 
-
+.comment_margin{
+    margin: 10px 0px 30px 5px !important;
+}
 
 .no_margin {
     margin: 0px;
@@ -566,6 +569,15 @@ video {
     margin: 0px 10px;
     width: 130px;
     display: flex;
+}
+
+#comment{
+    display: none;
+    height: 130px;
+}
+
+#more{ 
+    display: none;
 }
 
 .small_margin {
@@ -944,7 +956,7 @@ a {
 
 
 .no_margin {
-    margin: 0px;
+    margin: 0px !important;
 }
 
 .h5_margin {
