@@ -690,6 +690,8 @@ header {
     left: 50px;
     z-index: 1;
     border-radius: 10px;
+    top: 5px;
+    
 }
 
 #greeting {
