@@ -5,10 +5,10 @@
                 item.addEventListener('mouseout', hideVideo, false)
             });
 
-            function hoverVideo(e) {
+            function hoverVideo() {
                 this.play();
             }
 
-            function hideVideo(e) {
+            function hideVideo() {
                 this.pause();
             }
